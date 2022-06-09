@@ -1,14 +1,14 @@
-import { useContext } from 'react';
-import { ShopContext } from '../context';
-
 function BasketItem(props) {
-  const { mainId, displayName, displayAssets, price, quantity } = props;
-
   const {
+    mainId,
+    displayName,
+    displayAssets,
+    price,
+    quantity,
     removeFromBasket = Function.prototype,
     incQuantity = Function.prototype,
     decQuantity = Function.prototype,
-  } = useContext(ShopContext);
+  } = props;
 
   return (
     <div className='collection-item avatar app-basket-item'>
@@ -38,3 +38,4 @@ function BasketItem(props) {
 }
 
 export { BasketItem };
+

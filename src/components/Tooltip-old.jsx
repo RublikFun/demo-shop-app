@@ -1,8 +1,7 @@
-import { useContext, useEffect } from "react";
-import { ShopContext } from "../context";
+import { useEffect } from "react";
 
-function Tooltip() {
-  const {tooltip: name='', hideTooltip = Function.prototype} = useContext(ShopContext);
+function Tooltip(props) {
+  const {name='', hideTooltip = Function.prototype} = props;
 
   useEffect(() => {
       const timerId = setTimeout(hideTooltip, 3000);
