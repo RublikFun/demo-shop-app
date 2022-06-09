@@ -4,9 +4,10 @@ This Demo App was bootstrapped with [Create React App](https://github.com/facebo
 
 ## FortniteApi.io
 This API provides the most important data about Fortnite so you can use it in your apps, bots and web pages.
+
 [API Link](https://fortniteapi.io/)
 
-[Project Demo Link](#)
+[Project Demo Link](https://rublikfun.github.io/demo-shop-app/)
 
 The OMDb API is a RESTful web service to obtain movie information, all content and images on the site are contributed and maintained by our users.
 

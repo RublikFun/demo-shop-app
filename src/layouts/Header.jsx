@@ -8,7 +8,7 @@ function Header() {
           </a>
           <ul id='nav-mobile' className='right hide-on-med-and-down'>
             <li>
-              <a href='?' target='_blank' rel='noreferrer'>
+              <a href='https://github.com/RublikFun/demo-shop-app' target='_blank' rel='noreferrer'>
                 REPO
               </a>
             </li>
